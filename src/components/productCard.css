@@ -1,0 +1,30 @@
+/* productCard.css */
+
+.product-card {
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #387f39; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding around the card */
+    text-align: center; /* Center align content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition effects */
+  }
+  
+  .product-card img {
+    max-width: 100%; /* Ensure image stays within card */
+    border-radius: 8px; /* Rounded corners for image */
+    margin-bottom: 12px; /* Space below image */
+  }
+  
+  .product-card span {
+    display: block; /* Display spans as blocks */
+    margin-bottom: 8px; /* Space between spans */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+  
+  .product-card h1 {
+    margin-top: 16px; /* Space above heading */
+    font-size: 1.5rem; /* Heading font size */
+    color: #387f39; /* Green color for heading */
+  }
+  
